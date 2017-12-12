@@ -6,8 +6,8 @@ document.onkeyup = function() {
 	 document.getElementById("guess").appendChild(textnode);
 };
 
-var NumberLeft = ["8","7","6","5","4","3","2","1","0"];
-	 for (var i = 0; i < NumberLeft.length; i++) {
-        var numleftnew = NumberLeft[1]
-        var textnode1 = document.createTextNode(numleftnew);
-        document.getElementById("guessleft").appendChild(textnode1);
+// var NumberLeft = ["8","7","6","5","4","3","2","1","0"];
+// 	 for (var i = 0; i < NumberLeft.length; i++) {
+//         var numleftnew = NumberLeft[1]
+//         var textnode1 = document.createTextNode(numleftnew);
+//         document.getElementById("guessleft").appendChild(textnode1);
